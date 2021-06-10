@@ -17,3 +17,5 @@ Documenting my mechanical keyboard build
 1. Tested with online keyboard tester
 1. Placed all the keycaps
 
+## Designing keyboard
+https://github.com/ruiqimao/keyboard-pcb-guide
