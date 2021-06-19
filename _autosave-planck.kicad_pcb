@@ -358,7 +358,7 @@
 
   (footprint "Diode_SMD:D_SOD-123" (layer "F.Cu")
     (tedit 58645DC7) (tstamp 3619eafc-6f0a-4c60-a4a5-2c8232dcb8b8)
-    (at 87.376 112.014 180)
+    (at 87.376 112.014)
     (descr "SOD-123")
     (tags "SOD-123")
     (property "Sheetfile" "C:/Users/DellAdmin/dev/keyboard/planck.sch")
@@ -395,9 +395,9 @@
     (fp_line (start 1.4 -0.9) (end 1.4 0.9) (layer "F.Fab") (width 0.1) (tstamp c1c94800-98d2-46ac-a9a4-812ad7612f3c))
     (fp_line (start -0.35 0) (end 0.25 -0.4) (layer "F.Fab") (width 0.1) (tstamp dd5d6a08-ff6e-4ffe-98af-9f9a7cdd73fb))
     (fp_line (start 0.25 0.4) (end -0.35 0) (layer "F.Fab") (width 0.1) (tstamp e3812d8d-e69c-44a4-9bb5-d01c66cfed89))
-    (pad "1" smd rect locked (at -1.65 0 180) (size 0.9 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "1" smd rect locked (at -1.65 0) (size 0.9 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 6 "/row0") (pinfunction "K") (pintype "passive") (tstamp de7f0d0f-b5c8-4cc8-a854-f2aa57fd6fd5))
-    (pad "2" smd rect locked (at 1.65 0 180) (size 0.9 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "2" smd rect locked (at 1.65 0) (size 0.9 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 7 "Net-(D1-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 36e3633c-1827-4604-aa05-68d7926d9d46))
     (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.wrl"
       (offset (xyz 0 0 0))
@@ -1458,7 +1458,7 @@
 
   (footprint "TestPoint:TestPoint_Pad_D1.0mm" (layer "B.Cu")
     (tedit 5A0F774F) (tstamp 043fa491-b3a5-4318-8233-c0617a8353cb)
-    (at 87.376 37.592 180)
+    (at 91.948 83.312 180)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (property "Sheetfile" "C:/Users/DellAdmin/dev/keyboard/planck.sch")
@@ -1485,7 +1485,7 @@
 
   (footprint "TestPoint:TestPoint_Pad_D1.0mm" (layer "B.Cu")
     (tedit 5A0F774F) (tstamp 154f33b9-3559-4c9c-83e8-93dd456cb75b)
-    (at 92.456 37.592 180)
+    (at 97.028 83.312 180)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (property "Sheetfile" "C:/Users/DellAdmin/dev/keyboard/planck.sch")
@@ -1512,7 +1512,7 @@
 
   (footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" (layer "B.Cu")
     (tedit 5A02FE24) (tstamp 1bbb5b64-c46e-4e1c-a1b8-6936cf8c560d)
-    (at 104.648 101.809 180)
+    (at 104.14 101.809 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
     (property "Sheetfile" "C:/Users/DellAdmin/dev/keyboard/planck.sch")
@@ -1563,7 +1563,7 @@
 
   (footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" (layer "B.Cu")
     (tedit 5A02FE24) (tstamp 232aedce-6a26-4bea-9078-4aad48c2c531)
-    (at 84.328 101.809 180)
+    (at 84.836 101.809 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
     (property "Sheetfile" "C:/Users/DellAdmin/dev/keyboard/planck.sch")
@@ -1614,7 +1614,7 @@
 
   (footprint "TestPoint:TestPoint_Pad_D1.0mm" (layer "B.Cu")
     (tedit 5A0F774F) (tstamp 236594f5-fbb7-4725-a410-7c891622eb31)
-    (at 97.536 37.592 180)
+    (at 102.108 83.312 180)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (property "Sheetfile" "C:/Users/DellAdmin/dev/keyboard/planck.sch")
@@ -1641,7 +1641,7 @@
 
   (footprint "TestPoint:TestPoint_Pad_D1.0mm" (layer "B.Cu")
     (tedit 5A0F774F) (tstamp 2a288d5b-9c25-4390-bf41-9a80e8afac45)
-    (at 94.996 45.72 180)
+    (at 99.568 91.44 180)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (property "Sheetfile" "C:/Users/DellAdmin/dev/keyboard/planck.sch")
@@ -1668,7 +1668,7 @@
 
   (footprint "TestPoint:TestPoint_Pad_D1.0mm" (layer "B.Cu")
     (tedit 5A0F774F) (tstamp 2ef0d750-3798-4fce-8ad3-0a7882c08275)
-    (at 89.916 37.592 180)
+    (at 94.488 83.312 180)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (property "Sheetfile" "C:/Users/DellAdmin/dev/keyboard/planck.sch")
@@ -1695,7 +1695,7 @@
 
   (footprint "TestPoint:TestPoint_Pad_D1.0mm" (layer "B.Cu")
     (tedit 5A0F774F) (tstamp 3d70d77c-c1ef-4d02-ba06-b3b366004b96)
-    (at 97.536 45.72 180)
+    (at 102.108 91.44 180)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (property "Sheetfile" "C:/Users/DellAdmin/dev/keyboard/planck.sch")
@@ -1722,7 +1722,7 @@
 
   (footprint "TestPoint:TestPoint_Pad_D1.0mm" (layer "B.Cu")
     (tedit 5A0F774F) (tstamp 547ab45a-cd66-465d-bf0d-6629b911c550)
-    (at 87.376 45.716 180)
+    (at 91.948 91.436 180)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (property "Sheetfile" "C:/Users/DellAdmin/dev/keyboard/planck.sch")
@@ -1749,7 +1749,7 @@
 
   (footprint "TestPoint:TestPoint_Pad_D1.0mm" (layer "B.Cu")
     (tedit 5A0F774F) (tstamp 60bb9aff-485c-48a5-87df-ca039ddb1c2a)
-    (at 92.456 45.72 180)
+    (at 97.028 91.44 180)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (property "Sheetfile" "C:/Users/DellAdmin/dev/keyboard/planck.sch")
@@ -1776,7 +1776,7 @@
 
   (footprint "TestPoint:TestPoint_Pad_D1.0mm" (layer "B.Cu")
     (tedit 5A0F774F) (tstamp 6e10c87d-31c0-4015-9345-46f76bd5f421)
-    (at 79.756 45.72 180)
+    (at 84.328 91.44 180)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (property "Sheetfile" "C:/Users/DellAdmin/dev/keyboard/planck.sch")
@@ -1803,7 +1803,7 @@
 
   (footprint "TestPoint:TestPoint_Pad_D1.0mm" (layer "B.Cu")
     (tedit 5A0F774F) (tstamp 78b37705-476e-4915-ab29-18d0956a7b62)
-    (at 96.516 49.812 180)
+    (at 89.408 87.376 180)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (property "Sheetfile" "C:/Users/DellAdmin/dev/keyboard/planck.sch")
@@ -1830,7 +1830,7 @@
 
   (footprint "TestPoint:TestPoint_Pad_D1.0mm" (layer "B.Cu")
     (tedit 5A0F774F) (tstamp 80d397e6-30b1-4c22-8a3d-01884f2a1574)
-    (at 109.22 40.64 180)
+    (at 102.108 87.376 180)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (property "Sheetfile" "C:/Users/DellAdmin/dev/keyboard/planck.sch")
@@ -1857,7 +1857,7 @@
 
   (footprint "TestPoint:TestPoint_Pad_D1.0mm" (layer "B.Cu")
     (tedit 5A0F774F) (tstamp 83657697-b222-455d-ad6b-0287977a2252)
-    (at 107.186 31.016 180)
+    (at 91.948 87.376 180)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (property "Sheetfile" "C:/Users/DellAdmin/dev/keyboard/planck.sch")
@@ -1884,7 +1884,7 @@
 
   (footprint "TestPoint:TestPoint_Pad_D1.0mm" (layer "B.Cu")
     (tedit 5A0F774F) (tstamp 84737524-8e2a-44bc-8cf3-401521bf11f1)
-    (at 83.314 30.984 180)
+    (at 94.488 87.376 180)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (property "Sheetfile" "C:/Users/DellAdmin/dev/keyboard/planck.sch")
@@ -1911,7 +1911,7 @@
 
   (footprint "TestPoint:TestPoint_Pad_D1.0mm" (layer "B.Cu")
     (tedit 5A0F774F) (tstamp 9a418518-dea6-47f5-85dc-893bd01ff645)
-    (at 82.296 37.592 180)
+    (at 86.868 83.312 180)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (property "Sheetfile" "C:/Users/DellAdmin/dev/keyboard/planck.sch")
@@ -1938,7 +1938,7 @@
 
   (footprint "TestPoint:TestPoint_Pad_D1.0mm" (layer "B.Cu")
     (tedit 5A0F774F) (tstamp a1ad08d2-24c7-4217-ad55-2e1d852821f2)
-    (at 82.294 50.828 180)
+    (at 84.326 87.404 180)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (property "Sheetfile" "C:/Users/DellAdmin/dev/keyboard/planck.sch")
@@ -1965,7 +1965,7 @@
 
   (footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" (layer "B.Cu")
     (tedit 5A02FE24) (tstamp a8d7edc3-3468-4e12-bb99-11fd5e3fff82)
-    (at 104.648 121.92 180)
+    (at 104.14 121.158 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
     (property "Sheetfile" "C:/Users/DellAdmin/dev/keyboard/planck.sch")
@@ -2016,7 +2016,7 @@
 
   (footprint "TestPoint:TestPoint_Pad_D1.0mm" (layer "B.Cu")
     (tedit 5A0F774F) (tstamp b8117aeb-d3e3-474d-9b2f-30665f74c713)
-    (at 79.756 37.592 180)
+    (at 84.328 83.312 180)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (property "Sheetfile" "C:/Users/DellAdmin/dev/keyboard/planck.sch")
@@ -2043,7 +2043,7 @@
 
   (footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" (layer "B.Cu")
     (tedit 5A02FE24) (tstamp bb48fa08-65be-4495-be97-d59c78ca3d93)
-    (at 84.328 122.009 180)
+    (at 84.836 121.158 180)
     (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "Cherry MX keyswitch 1.00u PCB")
     (property "Sheetfile" "C:/Users/DellAdmin/dev/keyboard/planck.sch")
@@ -2094,7 +2094,7 @@
 
   (footprint "TestPoint:TestPoint_Pad_D1.0mm" (layer "B.Cu")
     (tedit 5A0F774F) (tstamp be3a6ed1-8fee-4fc5-b88f-d9328eff52bc)
-    (at 84.836 37.592 180)
+    (at 89.408 83.312 180)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (property "Sheetfile" "C:/Users/DellAdmin/dev/keyboard/planck.sch")
@@ -2121,7 +2121,7 @@
 
   (footprint "TestPoint:TestPoint_Pad_D1.0mm" (layer "B.Cu")
     (tedit 5A0F774F) (tstamp c347a266-e486-47c9-af0c-881e440d95d5)
-    (at 84.836 45.716 180)
+    (at 89.408 91.436 180)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (property "Sheetfile" "C:/Users/DellAdmin/dev/keyboard/planck.sch")
@@ -2148,7 +2148,7 @@
 
   (footprint "TestPoint:TestPoint_Pad_D1.0mm" (layer "B.Cu")
     (tedit 5A0F774F) (tstamp c838ff7c-6bd5-4395-8381-de33a3c412b0)
-    (at 107.696 44.704 180)
+    (at 97.028 87.376 180)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (property "Sheetfile" "C:/Users/DellAdmin/dev/keyboard/planck.sch")
@@ -2175,7 +2175,7 @@
 
   (footprint "TestPoint:TestPoint_Pad_D1.0mm" (layer "B.Cu")
     (tedit 5A0F774F) (tstamp f07775cb-1fa9-401e-9c89-d2b8876b9758)
-    (at 82.296 45.72 180)
+    (at 86.868 91.44 180)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (property "Sheetfile" "C:/Users/DellAdmin/dev/keyboard/planck.sch")
@@ -2202,7 +2202,7 @@
 
   (footprint "TestPoint:TestPoint_Pad_D1.0mm" (layer "B.Cu")
     (tedit 5A0F774F) (tstamp f0ba12d3-7022-4e23-a125-c33ffcff3924)
-    (at 110.236 44.704 180)
+    (at 99.568 87.376 180)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (property "Sheetfile" "C:/Users/DellAdmin/dev/keyboard/planck.sch")
@@ -2229,7 +2229,7 @@
 
   (footprint "TestPoint:TestPoint_Pad_D1.0mm" (layer "B.Cu")
     (tedit 5A0F774F) (tstamp f1a84b4a-6699-4b8f-8c23-20412487e51c)
-    (at 89.916 45.72 180)
+    (at 94.488 91.44 180)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (property "Sheetfile" "C:/Users/DellAdmin/dev/keyboard/planck.sch")
@@ -2256,7 +2256,7 @@
 
   (footprint "TestPoint:TestPoint_Pad_D1.0mm" (layer "B.Cu")
     (tedit 5A0F774F) (tstamp f3d3d3ba-14c7-4e8b-a7a7-6f6f7684f510)
-    (at 94.996 37.592 180)
+    (at 99.568 83.312 180)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (property "Sheetfile" "C:/Users/DellAdmin/dev/keyboard/planck.sch")
@@ -2283,7 +2283,7 @@
 
   (footprint "TestPoint:TestPoint_Pad_D1.0mm" (layer "B.Cu")
     (tedit 5A0F774F) (tstamp f7ebcf91-47ce-458a-8332-f2b9bcc2cb21)
-    (at 92.456 31.496 180)
+    (at 86.868 87.376 180)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (property "Sheetfile" "C:/Users/DellAdmin/dev/keyboard/planck.sch")
