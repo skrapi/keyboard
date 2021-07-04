@@ -7,3 +7,6 @@
 [submodule "keyboard_parts.pretty"]
 	path = keyboard_parts.pretty
 	url = git@github.com:tmk/keyboard_parts.pretty.git
+[submodule "kicad-symbols"]
+	path = kicad-symbols
+	url = https://gitlab.com/kicad/libraries/kicad-symbols.git
