@@ -1,0 +1,31 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
+1,"Unpolarized capacitor, small symbol",C_Small,C7 C9,18p,C_0603_1608Metric,2,~
+2,"Unpolarized capacitor, small symbol",C_Small,C1 C2 C3 C4 C8,0.1u,C_0603_1608Metric,5,~
+3,"Unpolarized capacitor, small symbol",C_Small,C6,1u,C_0603_1608Metric,1,~
+4,"Unpolarized capacitor, small symbol",C_Small,C5,4.7u,C_0603_1608Metric,1,~
+5,Diode,D,D1 D2 D5 D6,D,D_SOD-123,4,~
+6,"Zener diode, small symbol",D_Zener_Small,D3 D4,ESD7951ST5G,D_SOD-923,2,~
+7,USB 2.0-only Type-C Receptacle connector,USB_C_Receptacle_USB2.0,J1,USB_C_Receptacle_USB2.0,USB_C_Receptacle_Amphenol_12401548E4-2A,1,https://www.usb.org/sites/default/files/documents/usb_type-c.zip
+8,,KEYSW,K1 K2 K3 K4,KEYSW,SW_Cherry_MX_1.00u_PCB,4,
+9,Resistor,R,R3 R4,22,R_0603_1608Metric,2,~
+10,Resistor,R,R1 R2,5k1,R_0603_1608Metric,2,~
+11,Resistor,R,R5 R6,10k,R_0603_1608Metric,2,~
+12,,SW_PUSH,SW1,SW_PUSH,SW_SPST_TL3342,1,
+13,"16MHz, 32kB Flash, 2.5kB SRAM, 1kB EEPROM, USB 2.0, QFN-44",ATmega32U4-M,U1,ATmega32U4-M,QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm,1,http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf
+14,"Four pin crystal, GND on pins 2 and 4, small symbol",Crystal_GND24_Small,Y1,Crystal_GND24_Small,Crystal_SMD_SeikoEpson_FA238-4Pin_3.2x2.5mm,1,~
+
+
+
+
+
+Component Groups:,14
+Component Count:,29
+Fitted Components:,29
+Number of PCBs:,1
+Total components:,29
+Schematic Version:,
+Schematic Date:,
+PCB Variant:,default
+BoM Date:,Sat 10 Jul 2021 16:44:31
+Schematic Source:,planck.kicad_sch
+KiCad Version:,Eeschema 5.99.0-unknown-3f6811f413~130~ubuntu20.10.1

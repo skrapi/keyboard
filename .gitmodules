@@ -16,3 +16,6 @@
 [submodule "kicad-packages3D"]
 	path = kicad-packages3D
 	url = https://gitlab.com/kicad/libraries/kicad-packages3D.git
+[submodule "digikey-kicad-library"]
+	path = digikey-kicad-library
+	url = https://github.com/Digi-Key/digikey-kicad-library.git
