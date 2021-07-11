@@ -2236,7 +2236,7 @@
     (uuid a3d25767-1c49-4406-bdf0-59c6d7959960)
     (property "Reference" "J1" (id 0) (at 45.847 73.66 0))
     (property "Value" "USB_C_Receptacle_USB2.0" (id 1) (at 45.847 76.2 0))
-    (property "Footprint" "Connector_USB:USB_C_Receptacle_Amphenol_12401548E4-2A" (id 2) (at 46.99 95.25 0)
+    (property "Footprint" "Connector_USB:USB_C_Receptacle_Amphenol_12401610E4-2A" (id 2) (at 46.99 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" (id 3) (at 46.99 95.25 0)
@@ -2418,7 +2418,7 @@
       (reference "D6") (unit 1) (value "D") (footprint "Diode_SMD:D_SOD-123")
     )
     (path "/a3d25767-1c49-4406-bdf0-59c6d7959960"
-      (reference "J1") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "Connector_USB:USB_C_Receptacle_Amphenol_12401548E4-2A")
+      (reference "J1") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "Connector_USB:USB_C_Receptacle_Amphenol_12401610E4-2A")
     )
     (path "/00000000-0000-0000-0000-000060cc5874"
       (reference "K1") (unit 1) (value "KEYSW") (footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB")
